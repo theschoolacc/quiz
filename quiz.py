@@ -9,29 +9,30 @@ if correct_1.lower() == "paris":
 else:
     print ("Incorrect!")
 
+    
 correct_2 = input("What is the capital of the United States? ")
-if correct_2 == "Washington":
+if correct_2 == "washington":
     print("Correct!")
 else:
     print ("Incorrect!")
     
 
 correct_3 = input("What is the capital of Arizona? ")
-if correct_3.lower() == "Phoenix":
+if correct_3.lower() == "phoenix":
     print("Correct!")
 else:
     print ("Incorrect!")
 
 
 correct_4 = input("What is the capital of Georgia?")
-if correct_4.lower() == "Atlanta":
+if correct_4.lower() == "atlanta":
     print("Correct!")
 else:
     print ("Incorrect!")
 
 
 correct_5 = input("What is the capital of Chile?")
-if correct_5.lower() == "Santiago":
+if correct_5.lower() == "santiago":
     print("Correct!")
 else:
     print ("Incorrect!")
@@ -52,7 +53,7 @@ total_questions = 5
 correct_answers = 0
 if correct_1.lower() == "paris":
     correct_answers += 1
-if correct_2 == "washington":
+if correct_2.lower() == "washington":
     correct_answers += 1
 if correct_3.lower() == "phoenix":
     correct_answers += 1
