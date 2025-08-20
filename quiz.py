@@ -17,6 +17,10 @@ else:
     print ("Incorrect!")
     
 
+    #git config --global user.email "you@example.com"
+#   git config --global user.name "Your Name"
+    
+
 correct_3 = input("What is the capital of Arizona? ")
 if correct_3.lower() == "phoenix":
     print("Correct!")
